@@ -10,7 +10,10 @@ const imagesMap = new Map([
   ['sex', ['joinha.jpg']],
   ['boa noite', ['joinha.jpg']],
   ['trabalh', ['trabalho.jpg', 'cansado.png']],
-  ['triste', ['fracassado.jpg', 'triste2.jpg']]
+  ['triste', ['fracassado.jpg', 'triste2.jpg']],
+  ['desisto', ['fracassado.jpg', 'triste2.jpg']],
+  ['morre', ['triste2.jpg']],
+  ['ramda', ['triste.jpg']]
 ])
 
 const getRandomImage = responses =>
