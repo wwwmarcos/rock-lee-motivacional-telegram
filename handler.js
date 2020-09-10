@@ -20,14 +20,14 @@ const handler = bot => {
   const words = [...imagesMap.keys()]
   const triggers = words.map(buildTrigger)
 
-  bot.hears(triggers, ctx => {
+  bot.hears(triggers, async ctx => {
     const [match] = ctx.match
     const responses = imagesMap.get(match)
 
     const imageName = getRandomImage(responses)
     const imagePath = path.join('images', imageName)
 
-    ctx.replyWithPhoto({
+    await ctx.replyWithPhoto({
       source: imagePath
     },
     Extra.inReplyTo(ctx.message.message_id))
