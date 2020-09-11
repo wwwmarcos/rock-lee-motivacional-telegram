@@ -4,14 +4,17 @@ const path = require('path')
 const buildTrigger = word => new RegExp(word, 'i')
 
 const imagesMap = new Map([
-  ['cansado', ['cansado.png']],
+  ['cansad', ['cansado.png']],
+  ['javascript', ['erro.jpg']],
+  ['js', ['erro.jpg']],
   ['bom dia', ['joinha.jpg', 'luta.gif']],
   ['boa tarde', ['joinha.jpg']],
   ['sex', ['joinha.jpg']],
   ['boa noite', ['joinha.jpg']],
   ['trabalh', ['trabalho.jpg', 'cansado.png']],
   ['triste', ['fracassado.jpg', 'triste2.jpg']],
-  ['desisto', ['fracassado.jpg', 'triste2.jpg']],
+  ['chorand', ['fracassado.jpg', 'triste2.jpg']],
+  ['desist', ['nunca.jpg']],
   ['morre', ['triste2.jpg']],
   ['ramda', ['triste.jpg']]
 ])
