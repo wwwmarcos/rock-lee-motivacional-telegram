@@ -16,7 +16,9 @@ const imagesMap = new Map([
   ['chorand', ['fracassado.jpg', 'triste2.jpg']],
   ['desist', ['nunca.jpg']],
   ['morre', ['triste2.jpg']],
-  ['ramda', ['triste.jpg']]
+  ['ramda', ['triste.jpg']],
+  ['pspsps rock lee', ['cat.jpg']],
+  ['psps rock lee', ['cat.jpg']]
 ])
 
 const getRandomImage = responses =>
