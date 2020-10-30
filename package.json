@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "eptaccio <eptaccio@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=dev node index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "telegraf": "^3.38.0"
