@@ -18,8 +18,8 @@
 
 ## Usage
 
-TODO
-
+1. Create a env file with the var `BOT_TOKEN`. (Referente to generate the token)[https://core.telegram.org/bots#3-how-do-i-create-a-bot]
+2. run the command `npm run dev` to start the local server.
 
 ## Author
 
