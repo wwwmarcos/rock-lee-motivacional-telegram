@@ -14,7 +14,7 @@
 
 
 ## Demo
-<img alt="Demo-Image" src="https://raw.githubusercontent.com/eptaccio/rock-lee-motivacional-telegram/feat/add-docs/assets/demo.jpeg" />
+<img alt="Demo-Image" src="https://raw.githubusercontent.com/eptaccio/rock-lee-motivacional-telegram/master/assets/demo.jpeg" />
 
 ## Usage
 
